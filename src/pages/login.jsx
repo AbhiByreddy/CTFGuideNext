@@ -19,7 +19,7 @@ export default function Login() {
       if (user) {
         const uid = user.uid;
         window.location.replace("/dashboard")
-      } 
+      }
     });
   }, [])
 
@@ -39,7 +39,7 @@ export default function Login() {
         document.getElementById("error").classList.remove("hidden");
         document.getElementById("errorMessage").innerHTML = errorMessage;
       });
-    
+
   }
 
 
@@ -51,7 +51,7 @@ export default function Login() {
           @import url(&apos;https://fonts.googleapis.com/css2?family=Poppins&display=swap&apos;);
         </style>
       </Head>
-  
+
 
       <div className="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
